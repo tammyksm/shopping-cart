@@ -1,0 +1,11 @@
+.Cart-Section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+ul {
+    list-style: none;
+    
+}

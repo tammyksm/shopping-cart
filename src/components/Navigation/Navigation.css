@@ -1,0 +1,27 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.Navigation {
+    background-color: #F6F6F7;
+    margin: 10px 0;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+      #cart-icon:before {
+        content: "My Cart "
+      }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #cart-icon:before {
+        font-family: "FontAwesome";
+        content: '\f07a'
+      }
+    
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+
+
+h5, b {
+    color: #222222;
+}
+
+p, button {
+    color: #888888;
+}
+
+.sizeBtn:focus {
+    outline-color: #222222;
+}
+
+.addToCartBtn:hover {
+    background-color: #222222;
+    color: white;
+    outline: 0px;
+    transition: 0.2s;
+}
+
+.sizeBtn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #CCCCCC;
+    margin-right: 5px;
+    font-size: 0.8em;
+}
+
+.addToCartBtn {
+    border: 2px solid #222222;
+    background-color: transparent;
+    padding: 0 20px;
+    line-height: 2em;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .Product-Desc {
+        width: 40%;
+        text-align: left;
+    }
+    
+    .Product-Img {
+        width: 50%;
+    }
+
+    hr {
+        margin: 10px 0 !important;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .Product-Desc {
+        text-align: left;
+        margin: 0 10px;
+    }
+
+    .Product-Img {
+        text-align: left;
+    }
+
+    hr {
+        margin: 10px 0 !important;
+    }
+}
