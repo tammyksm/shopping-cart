@@ -36,6 +36,10 @@ p, button {
     line-height: 2em;
 }
 
+#sizeSelected {
+    color: #222222 !important;
+}
+
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 

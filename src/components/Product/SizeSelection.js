@@ -35,7 +35,7 @@ function SizeSelection(props) {
     return (
         <div>
             
-            <p style={sizeStyle}>SIZE<span className="required" style={requiredStyle}>*</span></p>
+        <p style={sizeStyle}>SIZE<span className="required" style={requiredStyle}>*</span> <span id="sizeSelected" >{size}</span></p>
             <div className="Size-Selection">
                 {buttonSizes}
             </div>
